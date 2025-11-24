@@ -3,9 +3,10 @@ import React, { useState } from 'react';
 export const Hero: React.FC = () => {
   const [current, setCurrent] = useState(0);
   const slides = [
-    "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/Gw/Uber/Nov/D103625178_DesktopTallHero_3000x1200._CB574598342_.jpg",
     "https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/2024/Nov/Unrec/Resized/3000/Unrec_3000_Under_499_std._CB542056769_.jpg",
-    "https://images-eu.ssl-images-amazon.com/images/G/31/img2020/img21/apparelGW/augatf23/unrec/citi/pc-1_2x._CB580502462_.jpg"
+    "https://images-eu.ssl-images-amazon.com/images/G/31/img23/Home/2024/Hero/November/Drying_racks_3000._CB542065362_.jpg",
+    "https://images-eu.ssl-images-amazon.com/images/G/31/img21/MA2023/Oct/GW/Unrec/PC/Unrec_3000_Starting_299_Prime._CB575645367_.jpg",
+    "https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/GW/Nov/One/Unrec/3000/Unrec_3000_Fashion_Beauty_std._CB542062777_.jpg"
   ];
 
   const nextSlide = () => setCurrent(current === slides.length - 1 ? 0 : current + 1);

@@ -1,3 +1,4 @@
+
 export interface Product {
   id: string;
   title: string;
@@ -25,4 +26,4 @@ export interface HomeWidget {
   linkText: string;
 }
 
-export type ViewState = 'home' | 'signin' | 'cart' | 'search';
+export type ViewState = 'home' | 'signin' | 'cart' | 'search' | 'mobiles' | 'fresh' | 'customerService' | 'orders';
